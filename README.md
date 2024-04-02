@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Table of Contents
 
-## Getting Started
+- [Tech Stack](#tech-stack)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-First, run the development server:
+## Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js**: Used as the primary framework for building the frontend of the application. Next.js provides server-side rendering, static site generation, and an intuitive development experience.
+- **Tailwind CSS**: Utilized for styling the UI components with its utility-first approach. Tailwind CSS offers a wide range of pre-built utility classes for fast and efficient styling.
+- **React**: Employed for building reusable UI components and managing the application's state.
+- **React Icons**: Used to easily incorporate icons from popular icon libraries like FontAwesome into the application.
+- **TypeScript**: Integrated to enhance the developer experience by adding static typing to the JavaScript codebase, reducing bugs and improving code maintainability.
+- **Next/Image**: Leveraged to optimize image loading and rendering performance, ensuring fast and efficient delivery of images.
+- **useState & useEffect Hooks**: Utilized for managing component-level state and handling side effects respectively, providing a clean and efficient way to manage state and perform asynchronous operations.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Responsive Design**: The application is fully responsive, ensuring seamless user experience across various devices and screen sizes.
+- **Dark Mode**: Implemented dark mode functionality to enhance user experience and reduce eye strain during night-time usage.
+- **Dynamic Data Rendering**: Utilized dynamic data rendering to display collections of sports events with relevant information fetched from an API or hardcoded data.
+- **Pagination**: Implemented pagination functionality to efficiently handle large datasets, enhancing the application's performance and user experience.
+- **Interactive UI**: Designed an intuitive and user-friendly interface with interactive elements such as buttons and navigation arrows for enhanced usability.
+- **Animated Loading Screen**: Implemented an animated loading screen with dynamic text to provide feedback to users during data fetching or application initialization.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone the repository: `git clone https://github.com/your-username/your-repository.git`
+2. Install dependencies: `npm install` or `yarn install`
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Start the development server: `npm run dev` or `yarn dev`
+2. Open the browser and navigate to `http://localhost:3000`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions are welcome! Please open an issue or submit a pull request.
+.
+# hexleap-frontend-assignment
